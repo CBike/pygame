@@ -14,9 +14,9 @@ pygame.display.set_caption("YangHO Game")
 clock = pygame.time.Clock()
 
 
-background = pygame.image.load(r"C:\python_dev\pygame\background.png")
+background = pygame.image.load(r"background.png")
 
-character = pygame.image.load(r"C:\python_dev\pygame\charater.png")
+character = pygame.image.load(r"charater.png")
 
 character_size = character.get_rect().size
 character_width = character_size[0]
@@ -29,7 +29,7 @@ to_y = 0
 
 character_speed = 0.6
 
-enemy = pygame.image.load(r"C:\python_dev\pygame\charater.png")
+enemy = pygame.image.load(r"charater.png")
 
 enemy_size = character.get_rect().size
 enemy_width = character_size[0]
